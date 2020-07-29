@@ -4,7 +4,7 @@
 
 - O usuário deve poder recuperar sua senha informando o seu e-mail;
 - O usuário deve receber um e-mail com instruções de recuperação de senha;
-- O usuário deve porder resetar sua senha;
+- O usuário deve poder resetar sua senha;
 
 **RNF**
 
@@ -25,7 +25,7 @@
 
 **RN**
 
-- O usuário não pode alterar seuy e-mail já utilizado;
+- O usuário não pode alterar seu e-mail já utilizado;
 - Para atualizar sua senha, o usuário deve informar a senha antiga;
 - Para atualizar sua senha, o usuário precisa confirmar a nova senha;
 
