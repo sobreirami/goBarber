@@ -7,3 +7,5 @@ coverage
 ormconfig.json
 build/
 .idea/
+yarn.lock
+yarn-error.log
