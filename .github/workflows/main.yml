@@ -1,4 +1,4 @@
-name: CI
+name: CI_API
 
 on:
   push:
@@ -18,9 +18,11 @@ jobs:
           
     - name: Install dependencies
       run: yarn
+      working-directory: api
       
     -name: Run build 
      run: yarn build
+     working-directory: api
      
      - name: copy dist to Digital Ocean
       uses: appleboy/scp-action@master
