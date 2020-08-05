@@ -20,11 +20,11 @@ jobs:
       run: yarn
       working-directory: api
       
-    -name: Run build 
-     run: yarn build
-     working-directory: api
+    - name: Run build
+      run: yarn build
+      working-directory: api
      
-     - name: copy dist to Digital Ocean
+    - name: copy dist to Digital Ocean
       uses: appleboy/scp-action@master
       with:
         host: ${{ secrets.SSH_HOST }}
